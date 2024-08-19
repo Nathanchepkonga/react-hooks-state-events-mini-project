@@ -16,7 +16,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
       <label htmlFor="task-details">Details</label>
       <input
         type="text"
-        id="task-details" // Added id here
+        id="task-details"
         name="text"
         placeholder="New task details"
         value={text}
@@ -24,7 +24,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
       />
       <label htmlFor="task-category">Category</label>
       <select
-        id="task-category" // Added id here
+        id="task-category"
         name="category"
         value={category}
         onChange={(e) => setCategory(e.target.value)}
